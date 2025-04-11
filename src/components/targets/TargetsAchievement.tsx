@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Card,
@@ -111,8 +110,7 @@ const TargetsAchievement: React.FC = () => {
                   </div>
                   <Progress 
                     value={achievementPercentage > 100 ? 100 : achievementPercentage} 
-                    className="h-2" 
-                    indicatorClassName={achievementPercentage >= 100 ? "bg-success" : "bg-info"}
+                    className={`h-2 ${achievementPercentage >= 100 ? "bg-success" : "bg-info"}`}
                   />
                 </div>
               )})}
@@ -145,11 +143,10 @@ const TargetsAchievement: React.FC = () => {
                   </div>
                   <Progress 
                     value={achievementPercentage} 
-                    className="h-2" 
-                    indicatorClassName={
+                    className={`h-2 ${
                       achievementPercentage < 80 ? "bg-danger" : 
                       achievementPercentage < 90 ? "bg-warning" : "bg-info"
-                    }
+                    }`}
                   />
                 </div>
               )})}

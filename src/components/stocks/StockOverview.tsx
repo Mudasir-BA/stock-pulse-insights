@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Card,
@@ -77,8 +76,7 @@ const StockOverview: React.FC = () => {
                               <span className="font-bold text-danger mr-2">{item.currentStock}</span>
                               <Progress 
                                 value={(item.currentStock / item.reorderLevel) * 100} 
-                                className="h-2 w-16" 
-                                indicatorClassName="bg-danger"
+                                className="h-2 w-16 bg-secondary"
                               />
                             </div>
                           </TableCell>

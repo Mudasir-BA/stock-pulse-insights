@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { BarChart3, BoxIcon, ChartLineUp, Target } from 'lucide-react';
+import { BarChart3, BoxIcon, LineChart, Target } from 'lucide-react';
 
 const DashboardHeader: React.FC = () => {
   return (
@@ -25,7 +25,7 @@ const DashboardHeader: React.FC = () => {
               </TabsTrigger>
               <TabsTrigger value="sales" className="flex items-center space-x-1" asChild>
                 <a href="#sales-trends">
-                  <ChartLineUp className="h-4 w-4 mr-1" />
+                  <LineChart className="h-4 w-4 mr-1" />
                   <span>Sales Trends</span>
                 </a>
               </TabsTrigger>

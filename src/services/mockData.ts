@@ -37,8 +37,8 @@ export interface CategorySales {
 
 // Stock items data
 export const getLowStockItems = (): StockItem[] => [
-  { id: '1', name: 'Smartphone X', category: 'Bakery', shop: 'Downtown', currentStock: 5, reorderLevel: 10, lastSale: '2025-04-10', salesTrend: [12, 15, 10, 8, 6, 5] },
-  { id: '2', name: 'Wireless Headphones', category: 'Bakery', shop: 'Uptown', currentStock: 3, reorderLevel: 8, lastSale: '2025-04-10', salesTrend: [8, 10, 7, 5, 4, 3] },
+  { id: '1', name: 'Bread Plane large', category: 'Bakery', shop: 'Downtown', currentStock: 5, reorderLevel: 10, lastSale: '2025-04-10', salesTrend: [12, 15, 10, 8, 6, 5] },
+  { id: '2', name: 'Chicken Burger', category: 'Bakery', shop: 'Uptown', currentStock: 3, reorderLevel: 8, lastSale: '2025-04-10', salesTrend: [8, 10, 7, 5, 4, 3] },
   { id: '3', name: 'Designer Jeans', category: 'Clothing', shop: 'West End', currentStock: 2, reorderLevel: 5, lastSale: '2025-04-09', salesTrend: [6, 5, 4, 3, 2, 2] },
   { id: '4', name: 'Coffee Maker', category: 'Home Goods', shop: 'Downtown', currentStock: 4, reorderLevel: 7, lastSale: '2025-04-08', salesTrend: [7, 6, 5, 5, 4, 4] },
   { id: '5', name: 'Organic Pasta', category: 'Groceries', shop: 'East Side', currentStock: 6, reorderLevel: 15, lastSale: '2025-04-10', salesTrend: [22, 20, 18, 12, 8, 6] },

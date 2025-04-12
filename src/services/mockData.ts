@@ -37,20 +37,20 @@ export interface CategorySales {
 
 // Stock items data
 export const getLowStockItems = (): StockItem[] => [
-  { id: '1', name: 'Smartphone X', category: 'Electronics', shop: 'Downtown', currentStock: 5, reorderLevel: 10, lastSale: '2025-04-10', salesTrend: [12, 15, 10, 8, 6, 5] },
-  { id: '2', name: 'Wireless Headphones', category: 'Electronics', shop: 'Uptown', currentStock: 3, reorderLevel: 8, lastSale: '2025-04-10', salesTrend: [8, 10, 7, 5, 4, 3] },
+  { id: '1', name: 'Smartphone X', category: 'Bakery', shop: 'Downtown', currentStock: 5, reorderLevel: 10, lastSale: '2025-04-10', salesTrend: [12, 15, 10, 8, 6, 5] },
+  { id: '2', name: 'Wireless Headphones', category: 'Bakery', shop: 'Uptown', currentStock: 3, reorderLevel: 8, lastSale: '2025-04-10', salesTrend: [8, 10, 7, 5, 4, 3] },
   { id: '3', name: 'Designer Jeans', category: 'Clothing', shop: 'West End', currentStock: 2, reorderLevel: 5, lastSale: '2025-04-09', salesTrend: [6, 5, 4, 3, 2, 2] },
   { id: '4', name: 'Coffee Maker', category: 'Home Goods', shop: 'Downtown', currentStock: 4, reorderLevel: 7, lastSale: '2025-04-08', salesTrend: [7, 6, 5, 5, 4, 4] },
   { id: '5', name: 'Organic Pasta', category: 'Groceries', shop: 'East Side', currentStock: 6, reorderLevel: 15, lastSale: '2025-04-10', salesTrend: [22, 20, 18, 12, 8, 6] },
   { id: '6', name: 'Action Figure', category: 'Toys', shop: 'Central', currentStock: 4, reorderLevel: 10, lastSale: '2025-04-08', salesTrend: [15, 12, 10, 7, 5, 4] },
   { id: '7', name: 'Dress Shirt', category: 'Clothing', shop: 'Downtown', currentStock: 7, reorderLevel: 12, lastSale: '2025-04-09', salesTrend: [14, 12, 10, 9, 8, 7] },
-  { id: '8', name: 'Bluetooth Speaker', category: 'Electronics', shop: 'West End', currentStock: 3, reorderLevel: 6, lastSale: '2025-04-10', salesTrend: [9, 7, 6, 5, 4, 3] },
+  { id: '8', name: 'Bluetooth Speaker', category: 'Bakery', shop: 'West End', currentStock: 3, reorderLevel: 6, lastSale: '2025-04-10', salesTrend: [9, 7, 6, 5, 4, 3] },
   { id: '9', name: 'Kitchen Knife Set', category: 'Home Goods', shop: 'Central', currentStock: 2, reorderLevel: 4, lastSale: '2025-04-07', salesTrend: [5, 4, 3, 3, 2, 2] },
   { id: '10', name: 'Organic Milk', category: 'Groceries', shop: 'Uptown', currentStock: 8, reorderLevel: 20, lastSale: '2025-04-10', salesTrend: [25, 22, 18, 15, 10, 8] },
 ];
 
 export const getZeroStockItems = (): StockItem[] => [
-  { id: '11', name: 'Premium Laptop', category: 'Electronics', shop: 'Downtown', currentStock: 0, reorderLevel: 5, lastSale: '2025-04-05', salesTrend: [6, 5, 4, 2, 1, 0] },
+  { id: '11', name: 'Premium Laptop', category: 'Bakery', shop: 'Downtown', currentStock: 0, reorderLevel: 5, lastSale: '2025-04-05', salesTrend: [6, 5, 4, 2, 1, 0] },
   { id: '12', name: 'Winter Jacket', category: 'Clothing', shop: 'East Side', currentStock: 0, reorderLevel: 8, lastSale: '2025-04-06', salesTrend: [10, 8, 5, 3, 1, 0] },
   { id: '13', name: 'Blender', category: 'Home Goods', shop: 'West End', currentStock: 0, reorderLevel: 6, lastSale: '2025-04-04', salesTrend: [7, 5, 4, 2, 1, 0] },
   { id: '14', name: 'Artisanal Cheese', category: 'Groceries', shop: 'Central', currentStock: 0, reorderLevel: 10, lastSale: '2025-04-09', salesTrend: [12, 10, 7, 4, 2, 0] },
@@ -82,7 +82,7 @@ export const getDailySalesData = (): SalesData[] => [
 
 // Top categories data
 export const getTopCategorySales = (): CategorySales[] => [
-  { category: 'Electronics', sales: 85000, percentage: 35 },
+  { category: 'Bakery', sales: 85000, percentage: 35 },
   { category: 'Clothing', sales: 65000, percentage: 26 },
   { category: 'Home Goods', sales: 45000, percentage: 18 },
   { category: 'Groceries', sales: 32000, percentage: 13 },
